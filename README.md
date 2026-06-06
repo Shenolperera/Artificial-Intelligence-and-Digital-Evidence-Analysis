@@ -409,7 +409,7 @@
     <!-- Footer -->
     <footer class="glass-panel border-t border-slate-800 py-8 px-6 text-center z-10 relative mt-12">
         <p class="text-gray-500 text-sm mb-2 ai-text" data-en="Research by Jayasuriya Kuranage Shenol Ravisha Perera &copy; 2026" data-ru="Исследование Джаясурии Куранаге Шенола Равиша Переры &copy; 2026">Research by Jayasuriya Kuranage Shenol Ravisha Perera &copy; 2026</p>
-        <p class="text-gray-600 text-xs max-w-2xl mx-auto ai-text" data-en="Based on 'Artificial Intelligence and Digital Evidence Analysis' Proposal. Incorporating ISO/IEC 42001, NIST AI RMF, and Sri Lankan Judicial Frameworks." data-ru="На основе предложения «Искусственный интеллект и анализ цифровых доказательств».">Based on "Artificial Intelligence and Digital Evidence Analysis" Proposal. <br/> Incorporating ISO/IEC 42001, NIST AI RMF, and Sri Lankan Judicial Frameworks.</p>
+        <p class="text-gray-600 text-xs max-w-2xl mx-auto ai-text" data-en="" data-ru=" ">" </p>
     </footer>
 
     <!-- Scripts (Offline Translation, Search, Three.js) -->
