@@ -179,6 +179,14 @@
                     <span class="ai-text" data-en="ORCID: 0009-0006-9838-797X" data-ru="ORCID: 0009-0006-9838-797X">ORCID: 0009-0006-9838-797X</span>
                 </div>
             </div>
+
+            <!-- New Download Button Section -->
+            <div class="mt-8 animate-on-scroll search-content">
+                <a href="https://drive.google.com/file/d/1bo5lBWfv4ZovVYWOwAXRhLabvOI0udX5/view?usp=sharing" target="_blank" class="inline-flex items-center space-x-2 bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-semibold py-3 px-8 rounded-full shadow-lg shadow-sky-500/30 transition-all transform hover:scale-105 border border-sky-400/50">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    <span class="ai-text tracking-wide" data-en="Download Full Document" data-ru="Скачать полный документ">සම්පූර්ණ ලේඛනය බාගත කරන්න</span>
+                </a>
+            </div>
         </div>
 
         <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce opacity-70">
@@ -268,7 +276,7 @@
         </div>
     </section>
 
-    <!-- Remaining sections mapped accurately using offline translation data tags -->
+    <!-- Research Rationale & Literature -->
     <section id="rationale" class="relative py-24 px-6 md:px-12">
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div class="animate-on-scroll search-content">
@@ -291,41 +299,52 @@
                 </div>
             </div>
 
+            <!-- Updated Literature Review Strategy Table -->
             <div class="animate-on-scroll search-content">
                 <h3 class="text-purple-400 font-semibold text-lg mb-2 uppercase tracking-widest ai-text" data-en="Literature Review Strategy" data-ru="Стратегия обзора литературы">Literature Review Strategy</h3>
                 <h2 class="text-3xl font-bold text-white mb-6 ai-text" data-en="Literature Review Strategy" data-ru="Стратегия обзора литературы">සාහිත්‍ය සෙවීමේ උපාය මාර්ගය</h2>
                 <div class="glass-panel p-6 rounded-2xl mb-6">
                     <p class="text-sm text-gray-300 mb-4 text-justify ai-text" data-en="To conduct a comprehensive, empirical, and reproducible review, this research uses a structured search strategy adhering strictly to the PRISMA procedure." data-ru="Для проведения всестороннего и воспроизводимого обзора в данном исследовании используется структурированная стратегия поиска.">පවතින දැනුම් සම්භාරය පිළිබඳ පුළුල්, ආනුභවික සහ පුනරාවර්තනය කළ හැකි සමාලෝචනයක් සිදු කිරීම සඳහා, මෙම පර්යේෂණය PRISMA ක්‍රියා පටිපාටියට දැඩි ලෙස අනුකූලව ව්‍යුහගත සෙවුම් උපාය මාර්ගයක් භාවිතා කරයි.</p>
                     <ul class="list-disc list-inside text-sm text-gray-400 space-y-2">
-                        <li class="ai-text" data-en="Priority Sources: IEEE Xplore, Scopus, arXiv, SpringerLink, NIST, ISO Publications." data-ru="Приоритетные источники: IEEE Xplore, Scopus, arXiv, SpringerLink, публикации NIST, ISO."><strong class="text-gray-200">ප්‍රමුඛතා ප්‍රභවයන්:</strong> IEEE Xplore, Scopus, arXiv, SpringerLink, NIST, ISO ප්‍රකාශන.</li>
-                        <li class="ai-text" data-en="Search Scope: Strict Boolean search string architecture." data-ru="Область поиска: Строгая архитектура логических строк поиска."><strong class="text-gray-200">සෙවීමේ විෂය පථය:</strong> දැඩි බූලියන් සෙවුම් තන්තු ගෘහ නිර්මාණ ශිල්පය.</li>
-                        <li class="ai-text" data-en="Timeframe: Recent academic articles published between 2018 and 2026." data-ru="Временные рамки: Недавние научные статьи, опубликованные в период с 2018 по 2026 год."><strong class="text-gray-200">කාල රාමුව:</strong> 2018 සහ 2026 අතර ප්‍රකාශිත නවතම ශාස්ත්‍රීය ලිපි.</li>
+                        <li class="ai-text" data-en="Priority Sources: IEEE Xplore, Scopus, arXiv, SpringerLink, NIST, ISO Publications." data-ru="Приоритетные источники: IEEE Xplore, Scopus, arXiv, SpringerLink, публикации NIST, ISO."><strong class="text-gray-200">ප්‍රමුඛතා ප්‍රභවයන්:</strong> IEEE Xplore, Scopus, arXiv, SpringerLink, National Institute of Standards and Technology (NIST) සහ International Organization for Standardization (ISO) හි නිල ප්‍රකාශන මෙයට ඇතුළත් වේ.</li>
+                        <li class="ai-text" data-en="Search Scope: Strict Boolean search string architecture." data-ru="Область поиска: Строгая архитектура логических строк поиска."><strong class="text-gray-200">සෙවීමේ විෂය පථය:</strong> කෘතිම බුද්ධිය, ඩිජිටල් අධිකරණ වෛද්‍ය විද්‍යාව සහ නීති විද්‍යාව යන බහුවිධ අංශ ආවරණය කිරීම සඳහා දැඩි බූලියන් සෙවුම් තන්තු ගෘහ නිර්මාණ ශිල්පයක් යොදවනු ලැබේ.</li>
+                        <li class="ai-text" data-en="Timeframe: Recent academic articles published between 2018 and 2026." data-ru="Временные рамки: Недавние научные статьи, опубликованные в период с 2018 по 2026 год."><strong class="text-gray-200">කාල රාමුව:</strong> 2018 සහ 2026 අතර ප්‍රකාශිත නවතම ශාස්ත්‍රීය ලිපි ඉලක්ක කර ගනු ලැබේ.</li>
                     </ul>
                 </div>
                 <div class="overflow-x-auto glass-panel rounded-2xl">
-                    <table class="text-xs">
+                    <table class="text-xs min-w-[700px]">
                         <thead>
                             <tr>
                                 <th class="ai-text" data-en="Multidisciplinary Subject Area" data-ru="Мультидисциплинарная предметная область">බහුවිධ විෂය ක්ෂේත්‍රය</th>
-                                <th class="ai-text" data-en="Core Keywords / Boolean Search Strings" data-ru="Основные ключевые слова / Строки поиска">මූලික යතුරු පද / බූලියන් සෙවුම් තන්තු</th>
+                                <th class="ai-text" data-en="Core Target Keywords" data-ru="Основные целевые ключевые слова">මූලික ඉලක්කගත යතුරු පද</th>
+                                <th class="ai-text" data-en="Strict Contextual Modifiers" data-ru="Строгие контекстные модификаторы">දැඩි සන්දර්භීය වෙනස් කිරීම්</th>
+                                <th class="ai-text" data-en="Structured Boolean Search Strings" data-ru="Структурированные логические строки поиска">ව්‍යුහගත බූලියන් සෙවුම් තන්තු</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="align-top">
                             <tr>
                                 <td class="font-semibold text-sky-200 ai-text" data-en="Algorithmic Architecture & AI" data-ru="Алгоритмическая архитектура и ИИ">ඇල්ගොරිතම ගෘහ නිර්මාණ ශිල්පය සහ AI</td>
-                                <td class="font-mono text-gray-400 ai-text" data-en='("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI")' data-ru='("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI")'>("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI" OR "SHAP" OR "LIME")</td>
+                                <td class="ai-text text-gray-300" data-en='"Artificial Intelligence", "Deep Learning", "Machine Learning", "Generative AI"' data-ru='"Artificial Intelligence", "Deep Learning", "Machine Learning", "Generative AI"'>"Artificial Intelligence", "Deep Learning", "Machine Learning", "Generative AI"</td>
+                                <td class="ai-text text-gray-300" data-en='"Explainable AI", "XAI", "SHAP", "LIME", "Grad-CAM", "Adversarial Machine Learning"' data-ru='"Explainable AI", "XAI", "SHAP", "LIME", "Grad-CAM", "Adversarial Machine Learning"'>"Explainable AI", "XAI", "SHAP", "LIME", "Grad-CAM", "Adversarial Machine Learning"</td>
+                                <td class="font-mono text-gray-400 ai-text" data-en='("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI" OR "SHAP" OR "LIME")' data-ru='("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI" OR "SHAP" OR "LIME")'>("Artificial Intelligence" OR "Deep Learning") AND ("Explainability" OR "XAI" OR "SHAP" OR "LIME")</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold text-sky-200 ai-text" data-en="Digital Forensics" data-ru="Цифровая криминалистика">ඩිජිටල් සාක්ෂි සහ අධිකරණ වෛද්‍ය විද්‍යාව</td>
-                                <td class="font-mono text-gray-400 ai-text" data-en='("Digital Forensics" OR "Cyber Forensics")' data-ru='("Digital Forensics" OR "Cyber Forensics")'>("Digital Forensics" OR "Cyber Forensics") AND ("AI" OR "Machine Learning") AND ("Incident Response")</td>
+                                <td class="ai-text text-gray-300" data-en='"Cyber Forensics", "Digital Evidence", "Network Forensics", "Incident Response"' data-ru='"Cyber Forensics", "Digital Evidence", "Network Forensics", "Incident Response"'>"Cyber Forensics", "Digital Evidence", "Network Forensics", "Incident Response"</td>
+                                <td class="ai-text text-gray-300" data-en='"Evidence extraction", "DFIR", "Cyber Exchange Principle", "Locard"' data-ru='"Evidence extraction", "DFIR", "Cyber Exchange Principle", "Locard"'>"Evidence extraction", "DFIR", "Cyber Exchange Principle", "Locard"</td>
+                                <td class="font-mono text-gray-400 ai-text" data-en='("Digital Forensics" OR "Cyber Forensics") AND ("AI" OR "Machine Learning") AND ("Incident Response")' data-ru='("Digital Forensics" OR "Cyber Forensics") AND ("AI" OR "Machine Learning") AND ("Incident Response")'>("Digital Forensics" OR "Cyber Forensics") AND ("AI" OR "Machine Learning") AND ("Incident Response")</td>
                             </tr>
                             <tr>
-                                <td class="font-semibold text-sky-200 ai-text" data-en="Legal Admissibility" data-ru="Правовая допустимость">නීතිමය පිළිගැනීමේ හැකියාව</td>
-                                <td class="font-mono text-gray-400 ai-text" data-en='("Admissibility" OR "Daubert")' data-ru='("Admissibility" OR "Daubert")'>("Admissibility" OR "Daubert") AND ("AI-generated evidence" OR "Black-box" OR "Algorithmic Bias")</td>
+                                <td class="font-semibold text-sky-200 ai-text" data-en="Legal Admissibility and Due Process" data-ru="Правовая допустимость и надлежащая процедура">නීතිමය පිළිගැනීමේ හැකියාව සහ නිසි ක්‍රියා පටිපාටිය</td>
+                                <td class="ai-text text-gray-300" data-en='"Admissibility", "Daubert Standard", "Expert Testimony", "Evidentiary Standards"' data-ru='"Admissibility", "Daubert Standard", "Expert Testimony", "Evidentiary Standards"'>"Admissibility", "Daubert Standard", "Expert Testimony", "Evidentiary Standards"</td>
+                                <td class="ai-text text-gray-300" data-en='"Due process", "Cross-examination", "Reliability", "Authenticity", "Black-box"' data-ru='"Due process", "Cross-examination", "Reliability", "Authenticity", "Black-box"'>"Due process", "Cross-examination", "Reliability", "Authenticity", "Black-box"</td>
+                                <td class="font-mono text-gray-400 ai-text" data-en='("Admissibility" OR "Daubert") AND ("AI-generated evidence" OR "Black-box" OR "Algorithmic Bias")' data-ru='("Admissibility" OR "Daubert") AND ("AI-generated evidence" OR "Black-box" OR "Algorithmic Bias")'>("Admissibility" OR "Daubert") AND ("AI-generated evidence" OR "Black-box" OR "Algorithmic Bias")</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold text-sky-200 ai-text" data-en="Sri Lankan Legal Context" data-ru="Правовой контекст Шри-Ланки">ශ්‍රී ලාංකේය නෛතික සන්දර්භය</td>
-                                <td class="font-mono text-gray-400 ai-text" data-en='("Sri Lanka" AND "Electronic Evidence")' data-ru='("Sri Lanka" AND "Electronic Evidence")'>("Sri Lanka" AND "Electronic Evidence") OR ("Evidence Special Provisions Act" OR "Electronic Transactions Act")</td>
+                                <td class="ai-text text-gray-300" data-en='"Sri Lanka", "Evidence Ordinance", "ETA 2006", "Computer Crimes Act"' data-ru='"Sri Lanka", "Evidence Ordinance", "ETA 2006", "Computer Crimes Act"'>"Sri Lanka", "Evidence Ordinance", "ETA 2006", "Computer Crimes Act"</td>
+                                <td class="ai-text text-gray-300" data-en='"Evidence Special Provisions Act", "SLCERT", "Information and Communication Technology Act"' data-ru='"Evidence Special Provisions Act", "SLCERT", "Information and Communication Technology Act"'>"Evidence Special Provisions Act", "SLCERT", "Information and Communication Technology Act"</td>
+                                <td class="font-mono text-gray-400 ai-text" data-en='("Sri Lanka" AND "Electronic Evidence") OR ("Evidence Special Provisions Act" OR "Electronic Transactions Act")' data-ru='("Sri Lanka" AND "Electronic Evidence") OR ("Evidence Special Provisions Act" OR "Electronic Transactions Act")'>("Sri Lanka" AND "Electronic Evidence") OR ("Evidence Special Provisions Act" OR "Electronic Transactions Act")</td>
                             </tr>
                         </tbody>
                     </table>
@@ -395,14 +414,258 @@
                         <h4 class="font-bold text-sky-400 border-b border-gray-700 pb-2 ai-text" data-en="Domestic Statutory Vacuum & Obsolescence" data-ru="Внутренний правовой вакуум и устаревание">දේශීය ව්‍යවස්ථාපිත හිස් අවකාශය සහ යල්පැනීම</h4>
                         <p class="ai-text" data-en="Outdated Statutes: The 1995 and 2006 Acts lack modern legal definitions for electronic evidence or AI." data-ru="Устаревшие законы: В законах 1995 и 2006 годов отсутствуют современные правовые определения электронных доказательств."><strong>යල්පැන ගිය ව්‍යවස්ථා:</strong> 1995 අංක 14 දරන සාක්ෂි (විශේෂ විධිවිධාන) පනත සහ 2006 අංක 19 දරන විද්‍යුත් ගනුදෙනු පනත, ගැඹුරු ඉගෙනුම් ජාල සහ AI පැමිණීමට පෙර කෙටුම්පත් කර ඇති බැවින්, "ඉලෙක්ට්‍රොනික සාක්ෂි" හෝ "කෘතිම බුද්ධිය" සඳහා නූතන නෛතික අර්ථකථනයක් නොමැත.</p>
                         <p class="ai-text" data-en="Proper Operation Issue: Proving a self-learning AI model 'operates properly' requires data auditing, which is not covered by the 1995 Act." data-ru="Проблема надлежащей работы: Доказательство «надлежащей работы» самообучающейся модели ИИ требует аудита данных."><strong>නිසි ක්‍රියාකාරීත්වය පිළිබඳ ගැටළුව:</strong> 1995 පනතේ 5 වගන්තිය පරිගණකය "නිසි ලෙස ක්‍රියාත්මක වන බව" ඔප්පු කිරීම අවශ්‍ය වේ. අද දින ස්වයං-ඉගෙනුම් AI ආකෘතියක් "නිසි ලෙස ක්‍රියාත්මක වන බව" ඔප්පු කිරීමට දත්ත විගණනය, පක්ෂග්‍රාහීත්වය හඳුනාගැනීම සහ ආකෘති අපගමනයට එරෙහි වලංගුකරණය අවශ්‍ය වේ. මෙය 1995 පනතට අනුකූල නොවේ.</p>
+                        <p class="ai-text" data-en="Procedural Issue: Section 7, which mandates a 45-day notice period before introducing evidence, hinders the rapid nature of AI security systems." data-ru="Процессуальная проблема: Раздел 7, который требует 45-дневного уведомления перед представлением доказательств, препятствует быстрой природе систем безопасности ИИ."><strong>ක්‍රියා පටිපාටිමය ගැටළුව:</strong> සාක්ෂි හඳුන්වා දීමට පෙර අනිවාර්යයෙන්ම දින 45ක දැනුම් දීමේ කාලයක් නියම කරන 7 වගන්තිය, ක්ෂණික සයිබර් තර්ජනවලට අදාළ AI ආරක්ෂක පද්ධතිවල වේගවත් ස්වභාවයට බාධා කරයි. මෙය Due Process (නිසි ක්‍රියා පටිපාටිය) සම්බන්ධයෙන් අභියෝගාත්මක විය හැක.</p>
                     </div>
                     <div class="space-y-4">
-                        <h4 class="font-bold text-purple-400 border-b border-gray-700 pb-2 ai-text" data-en="Algorithmic Due Process Disconnect" data-ru="Отключение алгоритмической надлежащей правовой процедуры">Algorithmic Due Process Disconnect</h4>
+                        <h4 class="font-bold text-purple-400 border-b border-gray-700 pb-2 ai-text" data-en="Algorithmic Due Process Disconnect" data-ru="Отключение алгоритмической надлежащей правовой процедуры">Algorithmic Due Process Disconnect (ඇල්ගොරිතමයේ නිසි ක්‍රියා පටිපාටියේ විසන්ධිය)</h4>
                         <p class="ai-text" data-en="Burden of Proof: Shifting the burden to the defendant to prove an algorithm wrong violates fundamental rights to a fair trial." data-ru="Бремя доказывания: Перенос на обвиняемого бремени доказывания ошибочности алгоритма нарушает основные права."><strong>සාක්ෂි භාරය:</strong> 2006 අංක 19 දරන විද්‍යුත් ගනුදෙනු පනතේ 21 වගන්තිය, ඉලෙක්ට්‍රොනික වාර්තාවක සත්‍යතාව නීතියෙන් උපකල්පනය කරයි. ඇල්ගොරිතමයේ අභ්‍යන්තර ක්‍රියාවලීන් වාණිජ රහස් ලෙස ආරක්ෂා කර ඇති විට, විත්තිකරුට ඇල්ගොරිතමයක් වැරදි බව ඔප්පු කිරීමට සිදුවීම, Due Process (නිසි ක්‍රියා පටිපාටිය) සහ සාධාරණ නඩු විභාගයක මූලික අයිතිවාසිකම් උල්ලංඝනය කරයි.</p>
+                        <h4 class="font-bold text-pink-400 border-b border-gray-700 pb-2 mt-6 ai-text" data-en="Absence of Unified XAI-CF Frameworks" data-ru="Отсутствие единых структур XAI-CF">ඒකාබද්ධ XAI-CF රාමු සහ ප්‍රමිතීන් නොමැති වීම</h4>
+                        <p class="ai-text" data-en="Although the theoretical benefits of SHAP and LIME are discussed, there are no documented cases of standard application directly as expert evidence in court." data-ru="Хотя обсуждаются теоретические преимущества SHAP и LIME, нет задокументированных случаев их стандартного применения непосредственно в качестве экспертных доказательств в суде.">SHAP සහ LIME හි න්‍යායික ප්‍රතිලාභ සාකච්ඡා කළද, මෙම සංකීර්ණ ගණිතමය පැහැදිලි කිරීම් අධිකරණයකදී විශේෂඥ සාක්ෂි ලෙස සෘජුවම, සම්මත භාවිතයට ගත් ලේඛනගත අවස්ථා නොමැත. විමර්ශන ජීවන චක්‍රය පුරා XAI මූලධර්ම ඒකාබද්ධ කරන ඒකාබද්ධ රාමුවක් නොමැත.</p>
                     </div>
                 </div>
             </div>
-            <!-- Standard UI elements to retain overall design perfectly intact -->
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-on-scroll">
+                <div class="glass-panel p-8 rounded-2xl border-l-4 border-l-red-500">
+                    <h3 class="text-xl font-bold mb-4 text-white ai-text" data-en="Research Problem Statement" data-ru="Постановка проблемы исследования">Research Problem Statement (මූලික විමර්ශන ගැටළු ප්‍රකාශ කිරීම)</h3>
+                    <p class="text-sm text-gray-300 mb-4 ai-text" data-en="Deploying AI in cyber forensics without legal modernization poses a threat to the fundamental integrity of the criminal justice system." data-ru="Развертывание ИИ в киберкриминалистике без правовой модернизации представляет угрозу фундаментальной целостности системы уголовного правосудия.">සයිබර් අධිකරණ වෛද්‍ය විද්‍යාවට AI යෙදවීම, නෛතික නවීකරණයකින් තොරව සිදුකිරීම, අපරාධ යුක්ති විනිශ්චය පද්ධතියේ මූලික අඛණ්ඩතාවයට තර්ජනයක් වේ.</p>
+                    <ul class="list-disc list-inside text-sm text-gray-400 space-y-2">
+                        <li class="ai-text" data-en="Admissibility Paradox: Law enforcement agencies use AI to find anomalies, but because the algorithms are black-boxes, this information cannot become admissible evidence." data-ru="Парадокс допустимости: Правоохранительные органы используют ИИ для поиска аномалий, но поскольку алгоритмы являются черными ящиками, эта информация не может стать допустимым доказательством."><strong>Admissibility Paradox:</strong> නීතිය ක්‍රියාත්මක කරන ආයතන විසින් මිනිසුන්ට හඳුනාගත නොහැකි ජාල විෂමතා සොයා ගැනීමට AI භාවිතා කළද, ඇල්ගොරිතම යාන්ත්‍රණයන් Black-box වන බැවින් එම තොරතුරු Admissibility සහිත සාක්ෂි බවට පත්කිරීමට නොහැකි වීම.</li>
+                        <li class="ai-text" data-en="Statutory Obsolescence: Existing evidentiary frameworks lack the technical definitions required to regulate dynamically learning computer systems." data-ru="Устаревание закона: Существующим доказательственным базам не хватает технических определений, необходимых для регулирования динамически обучающихся компьютерных систем."><strong>ව්‍යවස්ථාපිත යල්පැනීම:</strong> ශ්‍රී ලංකාවේ පවතින සාක්ෂි රාමු ගතිකව ඉගෙන ගන්නා පරිගණක පද්ධති නියාමනය කිරීමට අවශ්‍ය තාක්ෂණික නිර්වචනවලින් තොර වීම.</li>
+                        <li class="ai-text" data-en="AI Weaponization Threat: Adversarial Machine Learning and Data Poisoning attacks by malicious actors cast serious doubts on the reliability of AI-generated evidence." data-ru="Угроза вепонизации ИИ: Атаки состязательного машинного обучения и отравления данных злоумышленниками вызывают серьезные сомнения в надежности доказательств, созданных ИИ."><strong>AI අවි ගැන්වීමේ තර්ජනය එදිරිව සාක්ෂි අඛණ්ඩතාව:</strong> ද්වේෂසහගත ක්‍රියාකරුවන් විසින් AI භාවිතා කරමින් Adversarial Machine Learning සහ Data Poisoning ප්‍රහාර එල්ල කිරීම මගින් සාක්ෂිවල විශ්වසනීයත්වය බිඳ වැටීම.</li>
+                    </ul>
+                </div>
+                
+                <div class="glass-panel p-8 rounded-2xl border-l-4 border-l-green-500">
+                    <h3 class="text-xl font-bold mb-4 text-white ai-text" data-en="Research Questions" data-ru="Вопросы исследования">Research Questions (මූලික විමර්ශන ප්‍රශ්න)</h3>
+                    <ol class="list-decimal list-inside text-sm text-gray-300 space-y-3">
+                        <li class="ai-text" data-en="How do the inherent black-box characteristics of deep machine learning models conflict with the qualitative dimensions of reliability and authenticity demanded by traditional criminal jurisprudence?" data-ru="Как присущие черному ящику характеристики моделей глубокого машинного обучения конфликтуют с качественными аспектами надежности и аутентичности, требуемыми традиционной уголовной юриспруденцией?">ගැඹුරු යන්ත්‍ර ඉගෙනුම් ආකෘතිවල ආවේණික Black-box (කළු පෙට්ටි) ලක්ෂණ, සාම්ප්‍රදායික අපරාධ නීති විද්‍යාවෙන් ඉල්ලා සිටින විශ්වසනීයත්වය සහ සත්‍යතාව යන ගුණාත්මක මානයන් සමඟ ගැටෙන්නේ කෙසේද?</li>
+                        <li class="ai-text" data-en="In what specific, procedural ways can XAI techniques like SHAP and LIME be implemented to satisfy scientific reliability, testability, and Due Process in a live judicial environment?" data-ru="Какими конкретными процессуальными способами методы XAI, такие как SHAP и LIME, могут быть реализованы для удовлетворения научной надежности, проверяемости и надлежащей правовой процедуры в живой судебной среде?">SHAP සහ LIME වැනි XAI ශිල්පීය ක්‍රම, සජීවී අධිකරණ පරිසරයක් තුළ විද්‍යාත්මක විශ්වසනීයත්වය, පරීක්ෂා කිරීමේ හැකියාව සහ Due Process තෘප්තිමත් කිරීම සඳහා ක්‍රියාත්මක කළ හැක්කේ කුමන නිශ්චිත, ක්‍රියාපටිපාටිමය ආකාරවලින්ද?</li>
+                        <li class="ai-text" data-en="To what extent do the restrictive clauses of Sri Lanka's Evidence Act of 1995 and Electronic Transactions Act of 2006 hinder or facilitate the admissibility of AI-generated forensic evidence?" data-ru="В какой степени ограничительные положения Закона о доказательствах Шри-Ланки 1995 года и Закона об электронных транзакциях 2006 года препятствуют или способствуют допустимости судебно-медицинских доказательств, созданных ИИ?">ශ්‍රී ලංකාවේ 1995 අංක 14 සහ 2006 අංක 19 පනත්වල සීමාකාරී වගන්ති AI-ජනනය කරන ලද සාක්ෂි Admissibility ට බාධා කරන්නේ හෝ පහසු කරන්නේ කොපමණ දුරකටද, සහ නීත්‍යානුකූලව අවශ්‍ය නිශ්චිත ව්‍යවස්ථාපිත අනුවර්තනයන් මොනවාද?</li>
+                        <li class="ai-text" data-en="How can complex international AI risk management standards like ISO/IEC 42001 and NIST's AML guidelines be integrated into a legally robust workflow for Sri Lankan digital forensic investigators?" data-ru="Как сложные международные стандарты управления рисками ИИ, такие как ISO/IEC 42001 и руководящие принципы NIST по AML, могут быть интегрированы в юридически надежный рабочий процесс для шри-ланкийских специалистов по цифровой криминалистике?">ISO/IEC 42001 සහ NIST හි AML මාර්ගෝපදේශ වැනි ජාත්‍යන්තර ප්‍රමිතීන්, ශ්‍රී ලාංකේය ඩිජිටල් අධිකරණ වෛද්‍ය විමර්ශකයන් සඳහා සම්මත වැඩ ප්‍රවාහයක් බවට ඒකාබද්ධ කළ හැක්කේ කෙසේද?</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="glass-panel p-8 rounded-3xl animate-on-scroll">
+                <h3 class="text-2xl font-bold mb-6 text-center text-white text-glow ai-text" data-en="Actionable Objectives" data-ru="Действенные цели">Actionable Objectives (ක්‍රියාකාරී අරමුණු)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                    <div class="p-4 bg-slate-800/50 rounded-xl ai-text" data-en="Objective 1: To critically evaluate and map the structural and procedural limitations in Sri Lanka's current legal framework regarding the admission of dynamic, non-deterministic computer-generated evidence." data-ru="Цель 1: Критически оценить и наметить структурные и процедурные ограничения в нынешней правовой базе Шри-Ланки в отношении допуска динамических, недетерминированных компьютерных доказательств.">
+                        <strong class="text-sky-300">පළමු අරමුණ:</strong> ගතික සහ නිර්ණායක නොවන පරිගණක ජනිත සාක්ෂි අධිකරණයේදී පිළිගැනීමට අදාළව ශ්‍රී ලංකාවේ වත්මන් නීතිමය රාමුවේ පවතින ව්‍යුහාත්මක සහ ක්‍රියාපටිපාටිමය සීමාවන් විවේචනාත්මකව ඇගයීම සහ සිතියම්ගත කිරීම.
+                    </div>
+                    <div class="p-4 bg-slate-800/50 rounded-xl ai-text" data-en="Objective 2: To systematically deploy and empirically validate XAI methodologies (SHAP and LIME) on standard cybersecurity datasets, aligning complex computer outputs with legal requirements." data-ru="Цель 2: Систематически внедрять и эмпирически проверять методологии XAI (SHAP и LIME) на стандартных наборах данных кибербезопасности, согласовывая сложные результаты компьютеров с правовыми требованиями.">
+                        <strong class="text-sky-300">දෙවන අරමුණ:</strong> සම්මත සයිබර් ආරක්ෂණ දත්ත සමුදායන් මත XAI (පැහැදිලි කළ හැකි AI) ක්‍රමවේදයන් වන SHAP සහ LIME පද්ධතිගතව යෙදවීම සහ ප්‍රායෝගිකව තහවුරු කිරීම.
+                    </div>
+                    <div class="p-4 bg-slate-800/50 rounded-xl ai-text" data-en="Objective 3: To design and propose a comprehensive 'eXplainable AI in Cyber Forensics' (XAI-CF) operational framework ensuring continuous human oversight and algorithmic accountability at every stage." data-ru="Цель 3: Разработать и предложить комплексную операционную структуру «Объяснимый ИИ в киберкриминалистике» (XAI-CF), обеспечивающую постоянный человеческий надзор и подотчетность алгоритмов на каждом этапе.">
+                        <strong class="text-sky-300">තුන්වන අරමුණ:</strong> අපරාධ විමර්ශන ජීවන චක්‍රයේ සෑම අදියරකදීම අඛණ්ඩ මිනිස් අධීක්ෂණය, විනිවිදභාවයෙන් යුත් තීරණ ගැනීම සහ ඇල්ගොරිතම වගවීම තහවුරු කෙරෙන පූර්ණ "සයිබර් අධිකරණ විද්‍යාව තුළ පැහැදිලි කළ හැකි කෘතිම බුද්ධි" (XAI-CF) මෙහෙයුම් රාමුවක් නිර්මාණය කර යෝජනා කිරීම.
+                    </div>
+                    <div class="p-4 bg-slate-800/50 rounded-xl ai-text" data-en="Objective 4: To formulate a series of practical policy amendments integrating international risk management standards (ISO/IEC 42001, 27037/27041, NIST) to empower the Sri Lankan judicial system." data-ru="Цель 4: Сформулировать серию практических поправок к политике, интегрирующих международные стандарты управления рисками (ISO/IEC 42001, 27037/27041, NIST) для расширения возможностей судебной системы Шри-Ланки.">
+                        <strong class="text-sky-300">හතරවන අරමුණ:</strong> ශ්‍රී ලංකාවේ අධිකරණ පද්ධතියේ සහ නීතිය ක්‍රියාත්මක කරන ආයතනවල ධාරිතාවය සවිබල ගැන්වීම සඳහා, ජාත්‍යන්තර අවදානම් කළමනාකරණ ප්‍රමිතීන් (ISO/IEC 42001, 27037/27041, NIST) ඒකාබද්ධ කරමින් ප්‍රායෝගික ප්‍රතිපත්ති සංශෝධන මාලාවක් සම්පාදනය කිරීම.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Design & Limitations -->
+    <section id="design" class="relative py-24 px-6 md:px-12 bg-gradient-to-b from-slate-900/50 to-transparent search-content">
+        <div class="max-w-6xl mx-auto">
+            <div class="animate-on-scroll text-center mb-12">
+                <h3 class="text-sky-400 font-semibold text-lg mb-2 uppercase tracking-widest ai-text" data-en="Methodology" data-ru="Методология">Methodology</h3>
+                <h2 class="text-3xl md:text-5xl font-bold text-glow ai-text" data-en="Research Design" data-ru="Дизайн исследования">Research Design (යෝජිත පර්යේෂණ සැලසුම)</h2>
+                <p class="text-gray-400 mt-4 ai-text" data-en="This research calls for a deeply integrated multi-modal workflow comprising legal analysis, empirical technical validation, and ethical standardization." data-ru="Это исследование требует глубоко интегрированного мультимодального рабочего процесса, включающего правовой анализ, эмпирическую техническую проверку и этическую стандартизацию.">මෙම පර්යේෂණය, නීතිමය විශ්ලේෂණය, ආනුභවික තාක්ෂණික වලංගුකරණය සහ ආචාරධාර්මික ප්‍රමිතිකරණය යන අංශ තුනකින් සමන්විත බහු-මාදිලියේ වැඩ ප්‍රවාහයකි.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <div class="glass-panel p-6 rounded-2xl animate-on-scroll hover:-translate-y-2 transition-transform">
+                    <h4 class="text-xl font-bold text-sky-300 mb-3 ai-text" data-en="Phase 1: Doctrinal Legal Analysis" data-ru="Фаза 1: Доктринальный правовой анализ">අදියර 1: මූලධර්මාත්මක නීතිමය විශ්ලේෂණය</h4>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="Analysis: Comprehensive qualitative examination of primary statutes, secondary legal sources, and historical jurisprudence." data-ru="Анализ: Всестороннее качественное изучение первичных законов, вторичных правовых источников и исторической юриспруденции."><strong>විශ්ලේෂණය:</strong> ප්‍රාථමික ව්‍යවස්ථා, ද්විතියික නීතිමය මූලාශ්‍ර සහ ඓතිහාසික නීති විද්‍යාව පිළිබඳ සවිස්තරාත්මක ගුණාත්මක විභාගයක්.</p>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="Special Focus: Shortcomings of Sections 4, 5, 7 of the 1995 Act and Section 21 of the 2006 Act." data-ru="Особое внимание: Недостатки разделов 4, 5, 7 Закона 1995 года и раздела 21 Закона 2006 года."><strong>විශේෂ අවධානය:</strong> 1995 පනතේ 4, 5, 7 වගන්තිවල අඩුපාඩු සහ 2006 පනතේ 21 වගන්තිය.</p>
+                    <p class="text-sm text-gray-300 ai-text" data-en="Legal Precedents: Analysis of cases like Abeygunawardena vs. Samoon and AG vs Potta Nauffer." data-ru="Юридические прецеденты: Анализ таких дел, как Абейгунавардена против Самуна и Генеральный прокурор против Потты Науффера."><strong>නීතිමය පූර්වාදර්ශ:</strong> Abeygunawardena vs. Samoon සහ AG vs Potta Nauffer වැනි නඩු විභාග විශ්ලේෂණය.</p>
+                </div>
+                
+                <div class="glass-panel p-6 rounded-2xl animate-on-scroll delay-100 hover:-translate-y-2 transition-transform">
+                    <h4 class="text-xl font-bold text-purple-300 mb-3 ai-text" data-en="Phase 2: Empirical Technical Validation" data-ru="Этап 2: Эмпирическая техническая проверка">අදියර 2: ආනුභවික තාක්ෂණික වලංගුකරණය</h4>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="Test Environment: Sandboxed environment utilizing CNNs and LSTM." data-ru="Тестовая среда: Изолированная среда с использованием CNN и LSTM."><strong>පරීක්ෂණ පරිසරය:</strong> CNNs සහ LSTM යොදා ගනිමින් හුදකලා (sandboxed) පරිසරයක්.</p>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="Datasets: UNSW-NB15 and CICIDS2017." data-ru="Наборы данных: UNSW-NB15 и CICIDS2017."><strong>දත්ත සමුදායන්:</strong> UNSW-NB15 සහ CICIDS2017.</p>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="XAI Deployment: Integrating SHAP (global feature impact) and LIME (local interpretation)." data-ru="Развертывание XAI: Интеграция SHAP (влияние глобальных функций) и LIME (локальная интерпретация)."><strong>XAI යෙදවීම:</strong> SHAP (ගෝලීය ලක්ෂණ බලපෑම) සහ LIME (දේශීය අර්ථ නිරූපණය) ඒකාබද්ධ කිරීම.</p>
+                    <p class="text-sm text-gray-300 ai-text" data-en="Forensic Translation: Conversion into Algorithmic Expert Witness Reports." data-ru="Криминалистический перевод: Преобразование в алгоритмические отчеты свидетелей-экспертов."><strong>අධිකරණ පරිවර්තනය:</strong> Algorithmic Expert Witness Reports බවට පරිවර්තනය කිරීම.</p>
+                </div>
+
+                <div class="glass-panel p-6 rounded-2xl animate-on-scroll delay-200 hover:-translate-y-2 transition-transform">
+                    <h4 class="text-xl font-bold text-pink-300 mb-3 ai-text" data-en="Phase 3: Ethical Governance & Risk Mitigation" data-ru="Этап 3: Этическое управление и снижение рисков">අදියර 3: ආචාරධාර්මික පාලනය සහ අවදානම් අවම කිරීම</h4>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="International Standards: Alignment with ISO/IEC 27037 and ISO/IEC 27041." data-ru="Международные стандарты: Согласование с ISO/IEC 27037 и ISO/IEC 27041."><strong>ජාත්‍යන්තර ප්‍රමිතීන්:</strong> ISO/IEC 27037 සහ ISO/IEC 27041 සමඟ පෙළගැස්වීම.</p>
+                    <p class="text-sm text-gray-300 mb-2 ai-text" data-en="Ethical Governance: Implementing ISO/IEC 42001 and detecting algorithmic bias." data-ru="Этическое управление: Внедрение ISO/IEC 42001 и обнаружение алгоритмической предвзятости."><strong>ආචාරධාර්මික පාලනය:</strong> ISO/IEC 42001 ක්‍රියාත්මක කිරීම සහ ඇල්ගොරිතම පක්ෂග්‍රාහීත්වය හඳුනා ගැනීම.</p>
+                    <p class="text-sm text-gray-300 ai-text" data-en="Risk Mitigation: Threat modeling against Data Poisoning and AML using NIST taxonomy." data-ru="Снижение рисков: Моделирование угроз против отравления данных и AML с использованием таксономии NIST."><strong>අවදානම් අවම කිරීම:</strong> NIST වර්ගීකරණය භාවිතයෙන් Data Poisoning සහ AML තර්ජන ආකෘතිකරණය.</p>
+                </div>
+            </div>
+
+            <!-- Analysis Limitations -->
+            <div class="glass-panel p-8 rounded-2xl border-dashed border-2 border-slate-700 animate-on-scroll">
+                <h3 class="text-2xl font-bold text-white mb-4 ai-text" data-en="Analysis Limitations" data-ru="Ограничения анализа">Analysis Limitations (විශ්ලේෂණ සීමාවන්)</h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400 list-disc list-inside">
+                    <li class="ai-text" data-en="Proprietary Opacity: Research is restricted to open-source models as commercial core algorithms cannot be legally accessed." data-ru="Непрозрачность собственности: Исследования ограничиваются моделями с открытым исходным кодом, поскольку к коммерческим базовым алгоритмам нельзя получить законный доступ."><strong>වාණිජ හිමිකාරිත්වය (Proprietary Opacity):</strong> වාණිජ මූලික ඇල්ගොරිතම වෙත ප්‍රවේශ වීම නීත්‍යානුකූලව කළ නොහැකි බැවින් පර්යේෂණය විවෘත මූලාශ්‍ර ආකෘතිවලට සීමා වේ.</li>
+                    <li class="ai-text" data-en="Complex Computing Resource Needs: Calculating SHAP values requires significant GPU power. Generating LIME explanations in real-time can cause system latency." data-ru="Сложные потребности в вычислительных ресурсах: Вычисление значений SHAP требует значительной мощности графического процессора."><strong>සංකීර්ණ පරිගණක සම්පත් අවශ්‍යතාවය:</strong> SHAP අගයන් ගණනය කිරීම සඳහා විශාල GPU බලයක් අවශ්‍ය වේ. LIME පැහැදිලි කිරීම් තත්‍ය කාලීනව ජනනය කිරීම පද්ධති ප්‍රමාදයන් ඇති කළ හැක.</li>
+                    <li class="ai-text" data-en="Lack of Legal Precedents: Policy recommendations rely on predictive principle modeling due to a lack of global case law." data-ru="Отсутствие юридических прецедентов: Политические рекомендации опираются на прогнозное принципиальное моделирование из-за отсутствия глобального прецедентного права."><strong>නීතිමය පූර්වාදර්ශවල හිඟකම:</strong> ගෝලීය වශයෙන් තීන්දු වූ නඩු නීතියක් නොමැති බැවින් ප්‍රතිපත්ති නිර්දේශයන් අනාවැකිමය මූලධර්ම ආකෘතිකරණය මත රඳා පවතී.</li>
+                    <li class="ai-text" data-en="Model Drift: Predictive accuracy of AI models gradually degrades over time as cybercriminals refine new attack methods." data-ru="Дрейф модели: Прогностическая точность моделей ИИ постепенно снижается со временем, поскольку киберпреступники совершенствуют новые методы атак."><strong>Model Drift:</strong> සයිබර් අපරාධකරුවන් නව ප්‍රහාර ක්‍රමවේදයන් වැඩිදියුණු කරන බැවින් AI ආකෘතිවල අනාවැකිමය නිරවද්‍යතාවය ක්‍රමයෙන් නැති වී යයි.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outcomes & Timeline -->
+    <section id="timeline" class="relative py-24 px-6 md:px-12 search-content">
+        <div class="max-w-6xl mx-auto space-y-16">
+            
+            <!-- Expected Outcomes -->
+            <div class="animate-on-scroll">
+                <h2 class="text-3xl font-bold text-white mb-6 ai-text" data-en="Expected Outcomes" data-ru="Ожидаемые результаты">Expected Outcomes (අපේක්ෂිත ප්‍රතිඵල)</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-gray-300">
+                    <div class="glass-panel p-6 rounded-xl flex items-start gap-4">
+                        <div class="text-2xl text-sky-400 font-bold">1</div>
+                        <div class="ai-text" data-en="<strong>Implementation of XAI-CF Operational Architecture:</strong> Formulation and validation of the first unified XAI-CF framework tailored for Sri Lankan infrastructure." data-ru="<strong>Реализация операционной архитектуры XAI-CF:</strong> Разработка и валидация первой единой структуры XAI-CF, адаптированной для инфраструктуры Шри-Ланки.">
+                            <strong class="text-white block mb-1">XAI-CF මෙහෙයුම් ගෘහ නිර්මාණ ශිල්පය ක්‍රියාත්මක කිරීම:</strong>
+                            ශ්‍රී ලාංකේය යටිතල පහසුකම් සඳහා සකස් කරන ලද, ප්‍රථම ඒකාබද්ධ XAI-CF මෙහෙයුම් රාමුව සකස් කර වලංගු කිරීම. මෙය සියලුම AI-ජනනය කරන ලද සාක්ෂි නීත්‍යානුකූලව ආරක්ෂාකාරී බව සහතික කරයි.
+                        </div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl flex items-start gap-4">
+                        <div class="text-2xl text-sky-400 font-bold">2</div>
+                        <div class="ai-text" data-en="<strong>Comprehensive Legislative Amendment Roadmaps:</strong> Modernizing language in Section 5 of the 1995 Act and proposing emergency exceptions for the 45-day notice period in Section 7." data-ru="<strong>Всеобъемлющие дорожные карты внесения поправок в законодательство:</strong> Модернизация языка в разделе 5 Закона 1995 года и предложение экстренных исключений для 45-дневного периода уведомления в разделе 7.">
+                            <strong class="text-white block mb-1">සවිස්තරාත්මක ව්‍යවස්ථාදායක සංශෝධන මාර්ග සිතියම්:</strong>
+                            1995 අංක 14 පනතේ 5 වගන්තියේ භාෂාව නවීකරණය කිරීම සහ 7 වගන්තියේ දින 45ක දැනුම් දීමේ නියමය සඳහා හදිසි ව්‍යතිරේක යෝජනා කිරීම.
+                        </div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl flex items-start gap-4">
+                        <div class="text-2xl text-sky-400 font-bold">3</div>
+                        <div class="ai-text" data-en="<strong>Capacity Building and Judicial Training Modules:</strong> Direct integration of research findings into ongoing capacity-building programs at SLJI and National Police Training Institutes." data-ru="<strong>Наращивание потенциала и модули судебного обучения:</strong> Прямая интеграция результатов исследований в текущие программы наращивания потенциала в SLJI и Национальных институтах подготовки полиции.">
+                            <strong class="text-white block mb-1">ධාරිතා ගොඩනැගීම සහ අධිකරණ පුහුණු මොඩියුල:</strong>
+                            ශ්‍රී ලංකා විනිසුරුවරුන්ගේ ආයතනයේ (SLJI) සහ ජාතික පොලිස් පුහුණු ආයතනවල ධාරිතා වර්ධන වැඩසටහන්වලට පර්යේෂණ ප්‍රතිඵල සෘජුවම ඒකාබද්ධ කිරීම.
+                        </div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl flex items-start gap-4">
+                        <div class="text-2xl text-sky-400 font-bold">4</div>
+                        <div class="ai-text" data-en="<strong>International Harmony and Cooperation:</strong> By grounding the methodology on ISO/IEC 42001 and NIST AML, Sri Lanka prepares to easily align with MLATs like the Budapest Convention." data-ru="<strong>Международная гармония и сотрудничество:</strong> Основывая методологию на ISO/IEC 42001 и NIST AML, Шри-Ланка готовится легко присоединиться к договорам о взаимной правовой помощи (MLAT), таким как Будапештская конвенция.">
+                            <strong class="text-white block mb-1">ජාත්‍යන්තර එකඟතාව සහ සහයෝගීතාවය:</strong>
+                            ISO/IEC 42001 ප්‍රමිතීන් සහ NIST AML මාර්ගෝපදේශ මත පදනම් වීමෙන්, ශ්‍රී ලංකාව බුඩාපෙස්ට් සම්මුතිය වැනි ජාත්‍යන්තර නෛතික සහය ගිවිසුම් (MLATs) සමඟ පෙළගැස්වීමට සූදානම් වේ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Timeline -->
+            <div class="animate-on-scroll">
+                <h2 class="text-3xl font-bold text-white mb-6 ai-text" data-en="Research Timeline" data-ru="График исследований">Research Timeline (පුරෝකථනය කරන ලද පර්යේෂණ කාලසටහන)</h2>
+                <p class="text-sm text-gray-400 mb-4 ai-text" data-en="The complex, multi-modal research workflow is planned to be systematically executed over a 12-month structured timeline." data-ru="Сложный многомодальный рабочий процесс исследования планируется систематически выполнять в течение 12-месячного структурированного графика.">සංකීර්ණ, බහු-මාදිලියේ පර්යේෂණ කාර්ය ප්‍රවාහය මාස 12ක ව්‍යුහගත කාලසටහනක් හරහා ක්‍රමානුකූලව ක්‍රියාත්මක කිරීමට සැලසුම් කර ඇත.</p>
+                <div class="overflow-x-auto glass-panel rounded-2xl">
+                    <table class="w-full text-sm min-w-[600px]">
+                        <thead>
+                            <tr>
+                                <th class="w-1/4 ai-text" data-en="Project Phase" data-ru="Фаза проекта">ව්‍යාපෘති අදියර</th>
+                                <th class="w-1/2 ai-text" data-en="Core Analysis Activities and Strategic Outcomes" data-ru="Основные аналитические мероприятия и стратегические результаты">ප්‍රධාන විශ්ලේෂණ ක්‍රියාකාරකම් සහ උපායමාර්ගික ප්‍රතිඵල</th>
+                                <th class="w-1/4 text-right ai-text" data-en="Timeframe (2026)" data-ru="Временные рамки (2026)">කාල රාමුව (2026)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300 align-top">
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 1: Doctrinal Research & Literature Review" data-ru="Этап 1: Доктринальные исследования и обзор литературы">අදියර 1: මූලධර්මාත්මක පර්යේෂණ සහ ගැඹුරු සාහිත්‍ය සමාලෝචනය</td>
+                                <td class="ai-text" data-en="PRISMA review; Sri Lankan constitutional analysis; Daubert standard and international case law evaluation." data-ru="Обзор PRISMA; Конституционный анализ Шри-Ланки; Оценка стандарта Daubert и международного прецедентного права.">PRISMA සමාලෝචනය; ශ්‍රී ලංකා ව්‍යවස්ථා විශ්ලේෂණය; Daubert ප්‍රමිතිය සහ ජාත්‍යන්තර නඩු නීතිය ඇගයීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Months 1 - 3" data-ru="Месяцы 1 - 3">මාස 1 - 3</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 2: Environment Setup & Data Preprocessing" data-ru="Этап 2: Настройка среды и предварительная обработка данных">අදියර 2: පරිසර සැකසීම සහ දත්ත පූර්ව සැකසීම</td>
+                                <td class="ai-text" data-en="Procuring UNSW-NB15 / CICIDS2017 data; setting up GPU environments; data normalization." data-ru="Получение данных UNSW-NB15 / CICIDS2017; Настройка среды графического процессора; Нормализация данных.">UNSW-NB15 / CICIDS2017 දත්ත ලබා ගැනීම; GPU පරිසරයන් සකස් කිරීම; දත්ත සාමාන්‍යකරණය.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Month 4" data-ru="Месяц 4">මාස 4</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 3: AI Model Training & Baseline Validation" data-ru="Этап 3: Обучение модели ИИ и базовая проверка">අදියර 3: AI ආකෘති පුහුණුව සහ මූලික මිණුම්දණ්ඩ වලංගුකරණය</td>
+                                <td class="ai-text" data-en="Developing deep learning classifiers (CNN/LSTM); initial performance evaluation; documenting black-box limitations." data-ru="Разработка классификаторов глубокого обучения (CNN/LSTM); Первоначальная оценка эффективности; Документирование ограничений черного ящика.">ගැඹුරු ඉගෙනුම් වර්ගීකරණ යන්ත්‍ර (CNN/LSTM) සංවර්ධනය; මූලික කාර්ය සාධන ඇගයීම; කළු පෙට්ටි සීමාවන් ලේඛනගත කිරීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Months 5 - 6" data-ru="Месяцы 5 - 6">මාස 5 - 6</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 4: XAI Integration (SHAP/LIME Implementation)" data-ru="Этап 4: Интеграция XAI (реализация SHAP/LIME)">අදියර 4: XAI ඒකාබද්ධ කිරීම (SHAP/LIME ක්‍රියාත්මක කිරීම)</td>
+                                <td class="ai-text" data-en="Applying SHAP for global feature impact; LIME for local explanations; generating complex explanation visualizations." data-ru="Применение SHAP для глобального воздействия функций; LIME для местных пояснений; Создание сложных визуализаций объяснений.">ගෝලීය ලක්ෂණ බලපෑම සඳහා SHAP යෙදවීම; දේශීය පැහැදිලි කිරීම් සඳහා LIME යෙදවීම; සංකීර්ණ පැහැදිලි කිරීමේ දෘශ්‍යකරණයන් ජනනය කිරීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Months 7 - 8" data-ru="Месяцы 7 - 8">මාස 7 - 8</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 5: Mapping Forensic Standards and Ethics" data-ru="Этап 5: Сопоставление судебно-медицинских стандартов и этики">අදියර 5: අධිකරණ වෛද්‍ය ප්‍රමිතීන් සහ ආචාර ධර්ම සිතියම්ගත කිරීම</td>
+                                <td class="ai-text" data-en="Cross-referencing all AI outputs and methodologies against ISO/IEC 42001, ISO 27037/27041, and NIST AML standards." data-ru="Перекрестные ссылки на все результаты и методологии ИИ в соответствии со стандартами ISO/IEC 42001, ISO 27037/27041 и NIST AML.">ISO/IEC 42001, ISO 27037/27041, සහ NIST AML ප්‍රමිතීන්ට එරෙහිව සියලුම AI ප්‍රතිදාන සහ ක්‍රමවේද හරස්-යොමු කිරීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Month 9" data-ru="Месяц 9">මාස 9</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 6: Framework Synthesis and Policy Drafting" data-ru="Этап 6: Синтез рамок и разработка политики">අදියර 6: රාමු සංශ්ලේෂණය සහ ප්‍රතිපත්ති කෙටුම්පත් කිරීම</td>
+                                <td class="ai-text" data-en="Final integration of the XAI-CF framework; formal drafting of proposed legislative amendments for the Evidence Act and ETA." data-ru="Окончательная интеграция системы XAI-CF; Официальная разработка предлагаемых поправок в законодательство к Закону о доказательствах и ETA.">XAI-CF රාමුවේ අවසාන ඒකාබද්ධ කිරීම; සාක්ෂි විශේෂ විධිවිධාන පනත සහ ETA සඳහා යෝජිත ව්‍යවස්ථාදායක සංශෝධන විධිමත් ලෙස කෙටුම්පත් කිරීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Months 10 - 11" data-ru="Месяцы 10 - 11">මාස 10 - 11</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-sky-300 ai-text" data-en="Phase 7: Final Review and Conference Prep" data-ru="Этап 7: Заключительный обзор и подготовка к конференции">අදියර 7: අවසාන සමාලෝචනය සහ සමුළු සූදානම් කිරීම</td>
+                                <td class="ai-text" data-en="Rigorous peer review of all findings by subject matter experts; finalizing the formal research report." data-ru="Тщательная экспертная оценка всех результатов профильными экспертами; Доработка официального отчета об исследовании.">විෂය විශේෂඥයින් විසින් සියලුම සොයාගැනීම් දැඩි ලෙස සම-සමාලෝචනය කිරීම; විධිමත් පර්යේෂණ වාර්තාව අවසන් කිරීම.</td>
+                                <td class="text-right text-pink-300 ai-text" data-en="Month 12" data-ru="Месяц 12">මාස 12</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section class="relative py-24 px-6 md:px-12 bg-slate-900/40 search-content">
+        <div class="max-w-5xl mx-auto text-center animate-on-scroll">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8 text-glow ai-text" data-en="Conclusion" data-ru="Заключение">Conclusion (සංශ්ලේෂණය කළ නිගමනය)</h2>
+            <div class="glass-panel p-8 md:p-12 rounded-3xl text-gray-300 text-base md:text-lg text-justify space-y-6 leading-relaxed">
+                <p class="ai-text" data-en="The rapid deployment of AI in digital forensics represents a highly critical and dangerous turning point for the global criminal justice system. The incredible speed and analytical depth provided by machine learning algorithms are essential tools for law enforcement agencies. However, this technological extraction cannot bypass fundamental constitutional mandates regarding judicial transparency, scientific reliability, and the authenticity of evidence." data-ru="Быстрое внедрение ИИ в цифровую криминалистику представляет собой крайне критический и опасный поворотный момент для глобальной системы уголовного правосудия. Невероятная скорость и аналитическая глубина, обеспечиваемые алгоритмами машинного обучения, являются важными инструментами для правоохранительных органов. Однако это технологическое извлечение не может обойти фундаментальные конституционные мандаты, касающиеся судебной прозрачности, научной надежности и подлинности доказательств.">ඩිජිටල් අධිකරණ වෛද්‍ය විද්‍යාව තුළ AI (කෘතිම බුද්ධිය) වේගයෙන් යෙදවීම, ගෝලීය අපරාධ යුක්ති විනිශ්චය පද්ධතියට අතිශය තීරණාත්මක සහ අනතුරුදායක සන්ධිස්ථානයක් නියෝජනය කරයි. යන්ත්‍ර ඉගෙනුම් ඇල්ගොරිතම මගින් සපයනු ලබන පුදුමාකාර වේගය සහ විශ්ලේෂණ ගැඹුර, නීතිය ක්‍රියාත්මක කරන ආයතන සඳහා අත්‍යවශ්‍ය මෙවලම් වේ. කෙසේ වෙතත්, මෙම තාක්ෂණික නිස්සාරණය, අධිකරණ විනිවිදභාවය, විද්‍යාත්මක විශ්වසනීයත්වය සහ සාක්ෂිවල සත්‍යතාව පිළිබඳ මූලික ආණ්ඩුක්‍රම ව්‍යවස්ථාමය නියමයන් මග හැරිය නොහැක.</p>
+                
+                <p class="ai-text" data-en="Continued reliance on opaque Black-box computer methodologies overrides the vital chain of trust required for legal Admissibility. This technological opacity places an impossible evidentiary burden on outdated statutory frameworks like Sri Lanka's 1995 Evidence Act and the 2006 Electronic Transactions Act. When the legal system cannot understand the tools used to determine a conviction, the fundamental basis of Due Process is severely compromised." data-ru="Постоянная зависимость от непрозрачных компьютерных методологий черного ящика перекрывает жизненно важную цепочку доверия, необходимую для юридической допустимости. Эта технологическая непрозрачность ложится непосильным доказательственным бременем на устаревшие законодательные базы. Когда правовая система не может понять инструменты, используемые для вынесения обвинительного приговора, фундаментальная основа надлежащей правовой процедуры серьезно подорвана.">අපැහැදිලි Black-box (කළු පෙට්ටි) පරිගණක ක්‍රමවේද මත අඛණ්ඩව රඳා පැවතීම, නෛතික Admissibility (පිළිගත හැකි බව) සඳහා අවශ්‍ය වන අතිශය වැදගත් විශ්වාස දාමය අභිබවා යයි. මෙම තාක්ෂණික අපැහැදිලි බව, ශ්‍රී ලංකාවේ 1995 සාක්ෂි (විශේෂ විධිවිධාන) පනත සහ 2006 විද්‍යුත් ගනුදෙනු පනත වැනි යල් පැන ගිය ව්‍යවස්ථාපිත රාමු මත කළ නොහැකි සාක්ෂිමය බරක් පටවයි. නීති පද්ධතියට වරදකරුවෙකු තීරණය කිරීමට භාවිතා කරන මෙවලම් තේරුම් ගැනීමට නොහැකි වූ විට, Due Process (නිසි ක්‍රියා පටිපාටියේ) මූලික පදනම බරපතල ලෙස අඩාල වේ.</p>
+
+                <p class="ai-text" data-en="This comprehensive research plan outlines a strategic, empirical intervention to systematically resolve this legal and technical tension. By rigorously examining the volatile intersection of algorithmic processing and jurisprudential Due Process, and by implementing the complex mathematical paradigms of XAI (SHAP and LIME), the proposed study goes beyond theoretical critique. It provides an operational framework that translates complex, non-deterministic AI outputs into fully auditable, rigorously peer-reviewable, and easily human-interpretable expert evidence. Ultimately, implementing this research will empower local law enforcement agencies and the judiciary to safely utilize the full potential of artificial intelligence without sacrificing the fundamental rights of Due Process." data-ru="Этот комплексный план исследований намечает стратегическое эмпирическое вмешательство для систематического разрешения этой правовой и технической напряженности. Строго изучая нестабильное пересечение алгоритмической обработки и юриспруденциальной надлежащей правовой процедуры, предлагаемое исследование выходит за рамки теоретической критики. Оно обеспечивает оперативную основу, которая переводит результаты ИИ в проверяемые и легко интерпретируемые человеком экспертные доказательства.">මෙම සවිස්තරාත්මක පර්යේෂණ සැලැස්ම, එම නීතිමය හා තාක්ෂණික ආතතිය ක්‍රමානුකූලව විසඳීම සඳහා උපායමාර්ගික, ආනුභවික මැදිහත්වීමක් ගෙනහැර දක්වයි. ඇල්ගොරිතම සැකසීම සහ නීති විද්‍යාත්මක Due Process (නිසි ක්‍රියා පටිපාටිය) යන වාෂ්පශීලී සන්ධිස්ථානය දැඩි ලෙස පරීක්ෂා කිරීමෙන් සහ XAI හි (SHAP සහ LIME) සංකීර්ණ ගණිතමය ආදර්ශ ක්‍රියාත්මක කිරීමෙන්, යෝජිත අධ්‍යයනය න්‍යායික විවේචනවලින් ඔබ්බට යයි. එය සංකීර්ණ, නිර්ණායක නොවන AI ප්‍රතිදාන, සම්පූර්ණයෙන් විගණනය කළ හැකි, දැඩි ලෙස සම-සමාලෝචනය කළ හැකි සහ මිනිසුන්ට පහසුවෙන් අර්ථකථනය කළ හැකි විශේෂඥ සාක්ෂි බවට පරිවර්තනය කරන මෙහෙයුම් රාමුවක් සපයයි. අවසානයේදී, මෙම පර්යේෂණය ක්‍රියාත්මක කිරීම මඟින්, Due Process (නිසි ක්‍රියා පටිපාටියේ) මූලික අයිතිවාසිකම් කැප නොකර, කෘතිම බුද්ධියේ සම්පූර්ණ විභවය ආරක්ෂිතව භාවිතා කිරීමට දේශීය නීතිය ක්‍රියාත්මක කරන ආයතන සහ අධිකරණය සවිබල ගන්වයි.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section class="relative py-12 px-6 md:px-12 search-content">
+        <div class="max-w-6xl mx-auto">
+            <div class="glass-panel p-6 rounded-2xl animate-on-scroll">
+                <h3 class="text-xl font-bold mb-4 text-white border-b border-slate-700 pb-2 ai-text" data-en="Works Cited - 35 References" data-ru="Цитируемые работы - 35 ссылок">Works Cited (උපුටා දැක්වූ කෘති) - 35 References</h3>
+                <div class="h-64 overflow-y-auto pr-4 custom-scrollbar text-xs text-gray-400 space-y-2 break-all">
+                    <!-- Note: References are intentionally kept out of AI translation to save bandwidth and preserve URLs -->
+                    <p>1. RELIABILITY AND ADMISSIBILITY OF AI-GENERATED ... - arXiv, https://arxiv.org/pdf/2601.06048</p>
+                    <p>2. AUTHENTICITY OF DIGITAL EVIDENCE AND CURRENT ..., https://www.unafei.or.jp/publications/pdf/RS_No114/No114_25_PART_THREE_Participants_Papers_04.pdf</p>
+                    <p>3. Sri Lanka CERT, https://www.cert.gov.lk/</p>
+                    <p>4. Explainable AI for Forensic Analysis: A Comparative Study of SHAP and LIME in Intrusion Detection Models - MDPI, https://www.mdpi.com/2076-3417/15/13/7329</p>
+                    <p>5. THE USE OF DIGITAL EVIDENCE IN PROSECUTIONS IN ASIA EXECUTIVE SUMMARY - Interpol, https://www.interpol.int/content/download/17171/file/The%20Use%20of%20Digital%20Evidence%20in%20Prosecutions%20in%20Asia....pdf</p>
+                    <p>6. Locard's Exchange Principle: 5 things to know about crime scene investigation - Police1, https://www.police1.com/investigations/5-things-to-know-about-locards-principle</p>
+                    <p>7. The Digital Forensics Cyber Exchange Principle - Department of Computing Sciences, http://www.csc.villanova.edu/~dprice/9010sp14/extra_handouts/The_Digital_Forensics_Cyber_Exchange_Principle_-_2013-04-22.pdf</p>
+                    <p>8. XAI-CF – Examining the Role of Explainable Artificial Intelligence in Cyber Forensics - arXiv, https://arxiv.org/html/2402.02452v2</p>
+                    <p>9. Use of Explainable Artificial Intelligence for Analyzing and Explaining Intrusion Detection Systems - Preprints.org, https://www.preprints.org/manuscript/202503.2069</p>
+                    <p>10. Explainable AI for Digital Forensics: Ensuring Transparency in Legal Evidence Analysis, https://www.forensicscijournal.com/journals/jfsr/jfsr-aid1089.php</p>
+                    <p>11. Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - NIST Technical Series Publications, https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf</p>
+                    <p>12. ISO/IEC 42001: a new standard for AI governance - KPMG International, https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html</p>
+                    <p>13. Cybercrime Module 4 Key Issues: Standards and best practices for digital forensics, https://www.unodc.org/cld/en/education/tertiary/cybercrime/module-4/key-issues/standards-and-best-practices-for-digital-forensics.html</p>
+                    <p>14. Reliability and Admissibility of AI-Generated Forensic Evidence in Criminal Trials - arXiv, https://arxiv.org/abs/2601.06048</p>
+                    <p>15. AI Risk Management Framework | NIST - National Institute of Standards and Technology, https://www.nist.gov/itl/ai-risk-management-framework</p>
+                    <p>16. ISO 42001: Auditing and Implementing Framework - Cloud Security Alliance (CSA), https://cloudsecurityalliance.org/blog/2025/05/08/iso-42001-lessons-learned-from-auditing-and-implementing-the-framework</p>
+                    <p>17. Challenges in investigating Cybercrime in social networks: A Sri Lankan Perspective, http://ir.kdu.ac.lk/bitstream/handle/345/3004/FOC%20506-514.pdf?sequence=1&isAllowed=y</p>
+                    <p>18. Sri Lanka CERT Reports Sharp Rise In Phishing And Ransomware Incidents, https://cybersecurityventures.com/sri-lanka-cert-reports-sharp-rise-in-phishing-and-ransomware-incidents/</p>
+                    <p>19. Cybercrime and Computer Forensics in Epoch of Artificial Intelligence in India - arXiv, https://arxiv.org/abs/2512.15799</p>
+                    <p>20. XAI-CF -- Examining the Role of Explainable Artificial ... - arXiv, https://arxiv.org/pdf/2402.02452</p>
+                    <p>21. Sri Lanka - Octopus Cybercrime Community - The Council of Europe, https://www.coe.int/en/web/octopus/-/sri-lanka</p>
+                    <p>22. Trace Evidence: Principles - Forensic Science Simplified, https://www.forensicsciencesimplified.org/trace/principles.html</p>
+                    <p>23. Every contact leaves a trace - PMC - NIH, https://pmc.ncbi.nlm.nih.gov/articles/PMC8544144/</p>
+                    <p>24. Locard's exchange principle | Science | Research Starters - EBSCO, https://www.ebsco.com/research-starters/science/locards-exchange-principle</p>
+                    <p>25. Appreciation of Digital Evidence in Sri Lankan Law | PPT - Slideshare, https://www.slideshare.net/slideshow/appreciation-of-digital-evidence-in-sri-lankan-law/30702489</p>
+                    <p>26. 6.2. Electronic Transactions Act No. 19 of 2006. - CA Sri Lanka, https://www.casrilanka.com/casl/images/stories/EDBA/electronic%20transactions%20act%20no.%2019%20of%202006.pdf</p>
+                    <p>27. Evidence (Special Provisions) - The Parliament of Sri Lanka, https://www.parliament.lk/uploads/acts/gbills/english/3114.pdf</p>
+                    <p>28. Computer Evidence Admissibility in Sri Lanka | PDF | Affidavit - Scribd, https://www.scribd.com/document/834642384/final-vol-2-issue-1-1-54-69</p>
+                    <p>29. Admissibility of Computer Evidence in Sri Lankan Courts: A Comparative Analysis with Other Jurisdictions, https://ir.kdu.ac.lk/bitstream/handle/345/5370/final%20vol%202%20issue%201%20%281%29-54-69.pdf?sequence=1&isAllowed=y</p>
+                    <p>30. (PDF) Use of Electronic Evidence in Sri Lanka - ResearchGate, https://www.researchgate.net/publication/385907396_Use_of_Electronic_Evidence_in_Sri_Lanka</p>
+                    <p>31. Evidence (Special Provisions) Act - Laws of Sri Lanka, https://www.srilankalaw.lk/revised-statutes/volume-iii/352-evidence-special-provisions-act.html</p>
+                    <p>32. An Empirical Assessment of Digital Forensic Process Reliability Using Integrated ISO/IEC 27037 and 27041 Standards - MDPI, https://www.mdpi.com/2624-800X/6/2/57</p>
+                    <p>33. How NIST AI Framework Can be Used for ISO/IEC 17024 Compliance - ANAB Blog, https://blog.ansi.org/anab/nist-ai-framework-iso-iec-17024-compliance/</p>
+                    <p>34. NIST Trustworthy and Responsible AI Report Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - National Institute of Standards and Technology, https://www.nist.gov/news-events/news/2025/03/nist-trustworthy-and-responsible-ai-report-adversarial-machine-learning</p>
+                    <p>35. Electronic Evidence Country Fiche: SRI LANKA - UNODC, https://www.unodc.org/cld/uploads/pdf/El%20Evidence%20Hub/SOUTH_ASIA/eEvidence_Country_Fiche_SRI_LANKA.pdf</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -413,11 +676,10 @@
 
     <!-- Scripts (Offline Translation, Search, Three.js) -->
     <script>
-        /* Gujarati (Latin): Aa function offline translation mate chhe (This function handles offline translation instantly) */
+        /* Aa function offline translation mate chhe (This function handles offline translation instantly) */
         function translatePageOffline(lang, langName) {
             const elements = document.querySelectorAll('.ai-text');
             elements.forEach(el => {
-                // Original Sinhala text save kari rakhvo
                 if (!el.hasAttribute('data-si')) {
                     el.setAttribute('data-si', el.innerHTML);
                 }
@@ -429,14 +691,13 @@
                 } else if (lang === 'ru' && el.hasAttribute('data-ru')) {
                     el.innerHTML = el.getAttribute('data-ru');
                 } else {
-                    // Fallback to original if translation is missing for minor elements
                     el.innerHTML = el.getAttribute('data-si');
                 }
             });
             document.getElementById('current-lang').innerText = langName || (lang === 'en' ? 'English' : (lang === 'ru' ? 'Русский' : 'සිංහල'));
         }
 
-        /* Gujarati (Latin): Page load thaya pachi popup nu function (Function for initial popup selection) */
+        /* Page load thaya pachi popup nu function (Function for initial popup selection) */
         function setInitialLanguage(lang, langName) {
             translatePageOffline(lang, langName);
             const popup = document.getElementById('language-popup');
@@ -448,7 +709,7 @@
 
         window.onload = function() {
 
-            // --- 1. SEARCH / HIGHLIGHT FUNCTIONALITY (As it was originally) ---
+            // --- 1. SEARCH / HIGHLIGHT FUNCTIONALITY ---
             const searchInput = document.getElementById('keyword-search');
             let timeout = null;
 
@@ -457,7 +718,6 @@
                 const term = this.value.trim();
                 
                 timeout = setTimeout(() => {
-                    // Remove old highlights
                     document.querySelectorAll('mark.search-highlight').forEach(mark => {
                         const parent = mark.parentNode;
                         parent.replaceChild(document.createTextNode(mark.textContent), mark);
@@ -524,7 +784,7 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-            /* Gujarati (Latin): Neural Network Particles banavava mate (To create neural network particles) */
+            /* Neural Network Particles banavava mate (To create neural network particles) */
             const particleCount = 700;
             const geometry = new THREE.BufferGeometry();
             const positions = new Float32Array(particleCount * 3);
@@ -615,7 +875,7 @@
             }
             createBinaryRain();
 
-            /* Gujarati (Latin): Animation loop continuous farva mate (To rotate animation continuously) */
+            /* Animation loop continuous farva mate (To rotate animation continuously) */
             const clock = new THREE.Clock();
             function animate() {
                 requestAnimationFrame(animate);
